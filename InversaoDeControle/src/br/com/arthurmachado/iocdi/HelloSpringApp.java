@@ -1,4 +1,4 @@
-package br.com.arthurmachado.ioc;
+package br.com.arthurmachado.iocdi;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

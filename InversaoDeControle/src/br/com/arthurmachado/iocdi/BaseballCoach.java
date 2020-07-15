@@ -1,4 +1,4 @@
-package br.com.arthurmachado.ioc;
+package br.com.arthurmachado.iocdi;
 
 public class BaseballCoach implements Coach{
 

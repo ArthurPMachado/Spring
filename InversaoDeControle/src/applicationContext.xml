@@ -9,7 +9,7 @@
 
     <!-- Define your beans here -->
 	<bean id="myCoach"
-		class="br.com.arthurmachado.ioc.TrackCoach">
+		class="br.com.arthurmachado.iocdi.TrackCoach">
 	</bean>    
 </beans>
 
