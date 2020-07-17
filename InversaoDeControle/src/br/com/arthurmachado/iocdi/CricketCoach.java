@@ -7,13 +7,9 @@ public class CricketCoach implements Coach {
 	private String team;
 	
 	public CricketCoach() {
-		System.out.println("Inside no-arg constructor");
+		System.out.println("CricketCoach: Inside no-arg constructor");
 	}
 
-	public void setFortuneService(FortuneService fortuneService) {
-		System.out.println("Inside setter injection - fortune");
-		this.fortuneService = fortuneService;
-	}
 
 	@Override
 	public String getDailyWorkout() {
@@ -25,12 +21,17 @@ public class CricketCoach implements Coach {
 		return fortuneService.getFortune();
 	}
 
+	public void setFortuneService(FortuneService fortuneService) {
+		System.out.println("CricketCoach: Inside setter injection - fortune");
+		this.fortuneService = fortuneService;
+	}
+
 	public String getEmailAddress() {
 		return emailAddress;
 	}
 
 	public void setEmailAddress(String emailAddress) {
-		System.out.println("Inside setter injection - email");
+		System.out.println("CricketCoach: Inside setter injection - email");
 		this.emailAddress = emailAddress;
 	}
 
@@ -39,7 +40,7 @@ public class CricketCoach implements Coach {
 	}
 
 	public void setTeam(String team) {
-		System.out.println("Inside setter injection - team");
+		System.out.println("CricketCoach: Inside setter injection - team");
 		this.team = team;
 	}
 
