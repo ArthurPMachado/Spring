@@ -3,7 +3,6 @@ package com.arthurmachado.springboot.crudapp.dao;
 import java.util.List;
 
 import javax.persistence.EntityManager;
-import javax.transaction.Transactional;
 
 import org.hibernate.Session;
 import org.hibernate.query.Query;
